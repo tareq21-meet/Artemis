@@ -23,7 +23,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Locale;
- 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     EditText editTextTextPersonName;
     SpeechRecognizer mSpeechRecognizer;
@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     boolean isListening = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         checkPermission();
